@@ -1,0 +1,138 @@
+body {
+    background-image: url(/escritorio-windows-bliss-fondo_58.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#anim {
+    display: flex;
+    width: 100%;
+    height: 58rem;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    z-index: -2;
+    display: flex;
+}
+
+.nube {
+    
+    position: absolute;
+    right: -20vw;
+    width: 18rem;
+    height: 18rem;
+    background-image: url(/2VRc32t4qPc1EBnMD9SfuUMlxgb.png);
+    background-size: cover;
+    /* z-index: 10; */
+
+    animation: nubea 5s linear 1;
+}
+
+.lluvia {
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    top: -100%;
+    width: 18rem;
+    height: 300%;
+    background-image: url(/ab214134-eca5-4a68-9530-87c3b12b53d4.png);
+    background-size: cover;
+    background-repeat: repeat;
+
+    animation: luvia 5s linear 1;
+}
+
+.flor {
+    position: absolute;
+    bottom: -15vw;
+    background-image: url(/rafflesia_arnoldii_DM3.png);
+    width: 20rem;
+    height: 13rem;
+    background-size: cover;
+    
+    animation: flore 3s linear forwards 1;
+    animation-delay: 5s;
+}
+
+.sol {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    background-image: url(/happysunhgclr3169bl4.gif);
+    width: 13rem;
+    height: 13rem;
+    background-size: cover;
+}
+
+#mensajes {
+    align-self: center;
+    color: purple;
+    opacity: 0;
+    animation: txtShow 11s linear 1 forwards;
+}
+
+@keyframes txtShow {
+    90%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes nubea {
+    0%{
+        top: 0;
+    }
+    25%{
+        right: 43vw;
+    }
+    85%{
+        right: 43vw;
+    }
+    86%{
+        right: 45vw;
+    }
+    100%{
+        right: 110vw;
+    }
+    110%{
+        right: 120vw;
+    }
+}
+
+@keyframes luvia {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        top: -100%;
+    }
+    76%{
+        opacity: 1;
+        top: 50%;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        top: 100%;
+    }
+}
+
+@keyframes flore {
+    0%{
+        opacity: 1;
+    }
+    90%{
+        bottom: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+
+}
