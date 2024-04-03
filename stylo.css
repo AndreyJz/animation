@@ -1,5 +1,5 @@
 body {
-    background-image: url(/escritorio-windows-bliss-fondo_58.webp);
+    background-image: url(./escritorio-windows-bliss-fondo_58.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@ body {
     right: -20vw;
     width: 18rem;
     height: 18rem;
-    background-image: url(/2VRc32t4qPc1EBnMD9SfuUMlxgb.png);
+    background-image: url(./2VRc32t4qPc1EBnMD9SfuUMlxgb.png);
     background-size: cover;
     /* z-index: 10; */
 
@@ -35,7 +35,7 @@ body {
     top: -100%;
     width: 18rem;
     height: 300%;
-    background-image: url(/ab214134-eca5-4a68-9530-87c3b12b53d4.png);
+    background-image: url(./ab214134-eca5-4a68-9530-87c3b12b53d4.png);
     background-size: cover;
     background-repeat: repeat;
 
@@ -45,7 +45,7 @@ body {
 .flor {
     position: absolute;
     bottom: -15vw;
-    background-image: url(/rafflesia_arnoldii_DM3.png);
+    background-image: url(./rafflesia_arnoldii_DM3.png);
     width: 20rem;
     height: 13rem;
     background-size: cover;
@@ -58,7 +58,7 @@ body {
     z-index: -1;
     position: absolute;
     right: 0;
-    background-image: url(/happysunhgclr3169bl4.gif);
+    background-image: url(./happysunhgclr3169bl4.gif);
     width: 13rem;
     height: 13rem;
     background-size: cover;
